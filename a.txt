@@ -1,0 +1,95 @@
+/* Utilizando la propiedad shorthand "border" */
+div {
+  border: 1px solid #C00;
+}
+ 
+/* Utilizando las propiedades shorthand de cada borde */
+div {
+  border-top: 1px solid #C00;
+  border-right: 1px solid #C00;
+  border-bottom: 1px solid #C00;
+  border-left: 1px solid #C00;
+}
+ 
+/* Utilizando las propiedades simples de cada borde */
+div {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #C00;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #C00;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #C00;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #C00;
+}
+
+
+
+dotted:	Borde punteado, formado por una serie  de puntos separados por espacios
+
+dashed:	Borde discontinuo, formado por una serie de pequeños trazos intercalados  por  espacios
+
+double:	Borde doble, formado por dos líneas  rectas continuas separadas entre sí por  un espacio en blanco
+
+outset:	Borde saliente, que provoca que el elemento que encierra parezca  que se encuentra por encima  del nivel de la superficie de la pantalla
+---------------------------------------                                     ---------------------------------------------
+
+
+p.ex1 {
+                margin-left: inherit; }
+---------------------------------------
+h1 {
+    margin: 0 0 50px 0;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+}
+-------------------------------------
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+--------------------------------------
+div {
+    padding: 25px 50px 75px 100px;
+}
+----------------------------------------
+div {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+---------------------------------------
+border color fondo
+body {
+    background-image: url("paper.gif");
+}
+
+body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;  //si la imagen se repite orizontalmente
+}
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+}
+
+---------------------------------------------------------------
+
+
+
+                                                               
+
+
+

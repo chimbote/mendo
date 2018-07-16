@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="theme-color" content="#247BA0">
+	 <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1">
+<meta name="author" content="mendoza oviedo maycol nay ">
+<meta name="description" content="redsocial">
+	
+	<title>iMOC !</title>
+	 <link href="icon.png" type="image/x-icon" rel="shortcut icon" />
+	<link rel="stylesheet" href="imoc.css">
+<link rel="stylesheet" href="https://cdn.plyr.io/3.2.0/plyr.css"/>
+</head>
+<script src="coo.js"></script>
+<script src="https://cdn.plyr.io/3.2.0/plyr.js"></script>
+<script>/*<![CDATA[*/const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));/*]]>*/</script>
+
+<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+<!--facebook--->
+
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.0&appId=448105768959429&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<body onload="checkCookie()">
+<!-- Header -->
+	<header id="header">
+		
+	<h1 class="tinder"><font color="#ffffff"><a href="index.html" title="iMOC"><i>Tinder</i></a></font></h1>
+
+<!--seleciones de opciones-->
+	<div class="select" >
+<select  name="formal"  onchange="javascript:handleSelect(this)" title="Ordenar segun:">
+
+
+	  <option value="index"> Todos </option>
+	 
+
+<option value="Ciencias"> Facultad de Ciencias</option>
+
+<option value="Ingenieria"> Facultad de Ingenieria</option>
+<option value="Humanidades"> Facultad de Educacion y Humaninades</option>
+</select>
+</div>
+
+
+<!--fin de las seleciones de opciones-->
+
+	<nav class="main">
+	 <ul>
+	<li class="search">
+	<a class="fa-search" href="#search">Search</a>
+	<form id="search" method="get" action="#">
+	<input type="text" name="query" placeholder="Search" /></form></li>
+	<a href="" title=""><li class="menu">
+	<img  class="camarakei" src="camara.png" alt="" width="50" height="45"></li></a>
+	</ul>
+    </nav>
+    </header>
+<br class="brclass1">
+<div class="parte">
+<main class="keisha">
+ <section class="photoMO">              
+ <div class="initial">
+<span class="photo__icon"></span>
+
+<span class="photo__icon">
+ <a href="index.html" title="" ><img  class="imgparte1" src="home.png"/><p class="dein">Inicio</p></a> 
+                   </span>
+  <span class="photo__icon">
+ <a href="index.html" title=""><img  class="imgparte1" src="arbol2.png"/><p class="dein">Ecol</p></a></span>
+ <span class="photo__icon">
+<a href="index.html" title="" ><img  class="imgparte1" src="cerebro.png"/><p class="dein">Cer</p></a></span> 
+<span class="photo__icon"> <a href="index.html" title="" ><img  class="imgparte1" src="doctor.png"/></a><p class="dein">Doc</p></span>
+<span class="photo__icon"><a href="index.html" title="" > <img  class="imgparte1" src="manoartificial.png"/><p class="dein">Bot</p></a> </span>
+<!--
+          <span class="photo__icon">
+                       <img  class="imgparte2" src="ini.jpg"  />
+                   </span>-->
+                    </div>           
+            </section>
+        </main>
+    </div>
+    <br class="brclass">
+<!----->
+<script type="text/javascript">
+function handleSelect(elm)
+{
+window.location = elm.value+".html";
+}
+</script>
+<br>
+<center>
+<section class="seclogo">
+<div><img src="FOTOO.PNG" alt="">
+	
+</div><br>
+
+
+<a href="#"><ul class="facebook">
+<li><img src="fb.png"/>Compartir en Facebook</li></ul></a>
+<br>
+</section>  
+</center>
+
+</body>
+</html>
